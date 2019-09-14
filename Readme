@@ -1,0 +1,4 @@
+This project covers the following three tasks: 
+1) By default, when user browses for Apache ServerName, a  get index.html file is printed  in the browser even if no filename is  mentioned in the URL. The task is to  change that  behaviour and make default index file as test.html. 
+2) Configure Apache in such a way that if someone browses for a page in apache (eg:  test1.html), their browser redirects them to a different page. (eg: test2.html) (Tip: Use  rewrite module in Apache)  
+3) Enable Password Authentication in Apache, so that when someone browse your  website, they get a popup asking them to enter a username and password, before apache  will display pages to them on their browser (Tip: use module auth_basic) 
